@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="mmplayer" package_version="1.0" locale="es_ES" charset="ISO-8859-1">
+
+  <msg key="begin_date">Fecha inicio</msg>
+  <msg key="comment">Comentarios</msg>
+  <msg key="enabled">Habilitado</msg>
+  <msg key="end_date">Fecha fin</msg>
+  <msg key="height">Altura</msg>
+  <msg key="ok">Ok</msg>
+  <msg key="title">Título</msg>
+  <msg key="url">Url</msg>
+  <msg key="width">Anchura</msg>
+</message_catalog>
