@@ -14,7 +14,7 @@ ad_proc mmplayer_get_package_id {
     @param community_id
 } {
 
-    if {[info exist community_id] == 0} {
+    if {[info exists community_id] == 0} {
         set community_id [dotlrn_community::get_community_id]
     }
     db_1row get_mmplayer_package_id {}
