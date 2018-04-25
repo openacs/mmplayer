@@ -24,7 +24,7 @@ ad_proc mmplayer_get_package_id {
 
 ad_proc -private mmplayer::now_plus_days { -ndays } {
 } {
-    set now [list]
+    set now {}
     foreach v [clock format [clock seconds] -format "%Y %m %d %H %M %S"] {
       lappend now [template::util::leadingTrim $v]
     }
